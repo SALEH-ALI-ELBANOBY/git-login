@@ -1,0 +1,114 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/back.png);
+    background-position: center;
+    background-size: cover;
+}
+.container .login {
+    width: 350px;
+    height: 365px;
+    background-color: rgba(250, 250, 250, 0.2);
+    box-shadow: 4px 8px 12px rgba(250, 250, 250, 0.5);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    border: 2px solid rgba(250, 250, 250, 0.2);
+    border-radius: 16px;
+    text-align: center;
+    
+    
+
+}
+.container .login img {
+    width: 170px;
+    border-radius: 50%;
+    position: absolute;
+    top: -110px;
+    left: 90px ;
+    padding: 10px 15px ;
+}
+.container .login h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    position:absolute; 
+    top: 60px;
+    left: 120px;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+.container .login h3 {
+    position: absolute;
+    top: 315px;
+    left: 90px;
+    font-size: 14px;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.container .login h3:hover {
+   color: violet;
+}
+.input-text{
+    position: absolute;
+    top: 140px; ;
+    left: 90px;
+   background: none;
+   outline: none;
+   color: #fff;
+   border: none;
+   border-bottom: 2px solid rgba(250, 250, 250, 0.2);
+  
+
+
+}
+.input-text::placeholder{
+    color: #fff;
+}
+
+.input-password {
+   position: absolute;
+    top: 190px;
+    left:90px;
+    background: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-bottom:2px solid rgba(250, 250, 250, 0.2);
+   
+   
+}
+.input-password::placeholder{
+    color: #fff;
+    
+}
+.send {
+    position: absolute;
+    top: 240px;
+    left: 121px;
+    padding: 10px 30px ;
+    border-radius: 16px;
+    font-size: 18px;
+    background-color: rgb(235, 75, 250); 
+    color: white;
+    transition: 0.5s;
+    cursor: pointer; 
+   
+}
+    
+.send:hover{
+background-color: white;
+transition: background 0.5s;
+color: rgb(171, 71, 218); 
+}
